@@ -1,0 +1,21 @@
+{
+  "name": "koishi-plugin-minecraft-skin",
+  "description": "输入正版ID获取该玩家的minecraft皮肤",
+  "version": "0.0.1",
+  "main": "lib/index.js",
+  "typings": "lib/index.d.ts",
+  "files": [
+    "lib",
+    "dist"
+  ],
+  "license": "MIT",
+  "scripts": {},
+  "keywords": [
+    "chatbot",
+    "koishi",
+    "plugin"
+  ],
+  "peerDependencies": {
+    "koishi": "4.16.4"
+  }
+}
