@@ -1,7 +1,7 @@
 {
   "name": "koishi-plugin-minecraft-skin",
-  "description": "输入正版ID获取该玩家的minecraft皮肤",
-  "version": "0.0.1",
+  "description": "输入正版ID获取该玩家的minecraft皮肤，顺带做了获取uuid的功能",
+  "version": "0.1.1",
   "main": "lib/index.js",
   "typings": "lib/index.d.ts",
   "files": [
@@ -9,13 +9,17 @@
     "dist"
   ],
   "license": "MIT",
-  "scripts": {},
+  "homepage": "https://github.com/windbullet/koishi-plugin-minecraft-skin",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/windbullet/koishi-plugin-minecraft-skin.git"
+  },
   "keywords": [
     "chatbot",
     "koishi",
     "plugin"
   ],
   "peerDependencies": {
-    "koishi": "4.16.4"
+    "koishi": "^4.16.8"
   }
 }
